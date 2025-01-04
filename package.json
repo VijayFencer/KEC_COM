@@ -1,0 +1,8 @@
+{
+  "name": "keccomputing",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "keccomputing": "file:"
+  }
+}
