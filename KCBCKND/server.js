@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/authentication', {
+mongoose.connect('mongodb://localhost:27017/keccom', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

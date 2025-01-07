@@ -9,7 +9,7 @@ const PORT = 3001;
 
 app.use(express.json());
 
-mdb.connect("mongodb://localhost:27017/").then(()=>{
+mdb.connect("mongodb://localhost:27017/keccom").then(()=>{
     console.log("MongoDB Connection Successful");
 }).catch(()=>{
     console.log("Check your connection string");
